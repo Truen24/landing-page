@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .container {
+    max-width:  1000px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  
+  .navbar {
+    background: #1F2937;
+    color: #fff;
+    height: 50px;
+  }
+  
+  .navbar .logo {
+    font-size: 24px;
+    color: #f9faf8;
+  }
+  
+  .navbar a {
+    color: lightslategray;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .first-picture {
+    max-height: 50px;
+    margin-right: auto;
+  }
+
+  /* img {
+    max-height: 50px;
+    margin-right: auto;
+  } */
+  
+  .navbar a:hover {
+    color: darkgreen;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: auto;
+    padding: 10px;
+  }
+
+  /*  Hero Content and Image */
+
+  .card {
+    padding: 16px;
+    margin: 50px;
+    width: 250xpx;
+    border: 3px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+    height: 150px;
+    border-color: #3882f6;
+  }
+
+   .sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    width: 120px;
+   }
+
+  header {
+    padding: 0;
+    margin: 0;
+    background-color: #1F2937;
+  }
+
+  h1 {
+    color: white;
+    padding: 0;
+  }
+
+  .hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px;
+  }
+
+  .hero-content {
+    font-size: 18px;
+    color: #959698;
+  }
+  
+  .hero-picture {
+    margin-right: 0;
+    max-height: 200px;
+    max-width: 400px;
+    border: 3px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+  } 
+
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    max-height: 180px;
+    margin: 0 100px;
+    padding: 0 50px;
+    background-color: white;
+  }
+  
+
+
+.information {
+    /* display: flex;
+    align-items: center;
+    max-width: 987px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0 50px;
+    background-color: gray; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    max-height: 400px;
+    margin: 0 100px;
+    padding: 0 50px;
+    background-color: white;
+}
+
+.card-info {
+  /* padding: 5px;
+  margin-bottom: auto;
+  margin-left: 30px;
+  width: 300px; */
+  margin-left: 0;
+  max-height: 100px;
+  max-width: 200px;
+}
+  
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    margin-top: 16px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    background-color: white;
+}
+
+.valorant {
+    margin-left: 0;
+    max-height: 100px;
+    max-width: 200px;
+    border: 3px solid #3882f6;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 8px;
+}
+
+.card-info2{
+    margin-left: 120px;
+}
+
+.card-info3 {
+    margin-left: 105px;
+}
+
+.card-info4 {
+    margin-left: 100px;
+}
+
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    padding: 0 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.kay-o {
+    padding-top: 16px;
+    margin-left: 950px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    max-width:  1000px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0 50px;
+    border-radius: 8px;
+}
+
+.call-text {
+    font-size: 24px;
+    color: white;
+    margin-right: 550px;
+}
+
+.call-text2 {
+    padding-top: 5px;
+    font-size: 16px;
+    color: rgb(233, 232, 232);
+    margin-right: 238px;
+}
+
+.button2 {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 70px;
+    width: 120px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+}
+
+
+  
